@@ -18,26 +18,26 @@ header{
   align-items: center;
   justify-content: space-between;
   padding: 1em 1em 0em 0em;
-  background-color: rgb(1, 13, 53);
+  background-color: rgb(1, 11, 44);
 
   h1{
-    background-color: rgb(1, 13, 53);
+    background-color: rgb(1, 11, 44);
     padding-left: 1em;
     color: whitesmoke;
   }
 
   .nav{
-  background-color: rgb(1, 13, 53);
+  background-color: rgb(1, 11, 44);
   display: flex;
   gap: 1em;
   /* border: 1px solid red; */
   a{
-    background-color: rgb(1, 13, 53);
+    background-color: rgb(1, 11, 44);
     color: rgb(187, 181, 181);
     text-decoration: none;
 
     &:hover{
-      background-color: rgb(46, 43, 43);
+      background-color: rgb(37, 35, 35);
     }
     
   }

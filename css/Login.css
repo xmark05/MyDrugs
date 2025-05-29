@@ -1,16 +1,30 @@
+@font-face {
+  font-family: "pixelSchrift";
+  src: url(/fonts/Minecraft.ttf) format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 *{
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
   background-color: rgb(1, 4, 27);
+  font-family: 'pixelSchrift', sans-serif;
 }
 
 header{
   display: flex;
   align-items: center;
-  justify-content: end;
+  justify-content: space-between;
   padding: 1em 1em 0em 0em;
   background-color: rgb(1, 13, 53);
+
+  h1{
+    background-color: rgb(1, 13, 53);
+    padding-left: 1em;
+    color: whitesmoke;
+  }
 
   .nav{
   background-color: rgb(1, 13, 53);

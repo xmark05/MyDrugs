@@ -1,0 +1,31 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  background-color: rgb(1, 4, 27);
+}
+
+header{
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  padding: 1em 1em 0em 0em;
+  background-color: rgb(1, 13, 53);
+
+  .nav{
+  background-color: rgb(1, 13, 53);
+  display: flex;
+  gap: 1em;
+  /* border: 1px solid red; */
+  a{
+    background-color: rgb(1, 13, 53);
+    color: rgb(187, 181, 181);
+    text-decoration: none;
+
+    &:hover{
+      background-color: rgb(46, 43, 43);
+    }
+    
+  }
+ }
+}
